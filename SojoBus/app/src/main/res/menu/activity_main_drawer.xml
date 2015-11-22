@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_tozan"
+            android:title="登山"/>
+        <item
+            android:id="@+id/nav_gezan"
+            android:title="下山"/>
+        <item
+            android:id="@+id/nav_tozan_takatuki"
+            android:title="登山(JR高槻駅北)"/>
+        <item
+            android:id="@+id/nav_gezan_takatuki"
+            android:title="下山(JR高槻駅北)"/>
+        <item
+            android:id="@+id/nav_tozan_tonda"
+            android:title="登山(JR富田駅)"/>
+        <item
+            android:id="@+id/nav_gezan_tonda"
+            android:title="下山(JR富田駅)"/>
+    </group>
+
+    <group android:id="@+id/nav_other">
+        <item
+            android:id="@+id/nav_license"
+            android:title="オープンソースライセンス"/>
+    </group>
+
+</menu>
